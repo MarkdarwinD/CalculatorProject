@@ -11,6 +11,7 @@ public class Main {
         System.out.println("2. Multiplication ");
         System.out.println("3. Subtraction ");
         System.out.println("4. Division ");
+        System.out.println("5. Exit");
 
 
         System.out.println("What Operation: ");
@@ -33,6 +34,8 @@ public class Main {
             case 4:
                 System.out.println("Division");
                 System.out.println((float)division.myDivision());
+                break;
+            case 5:
                 break;
             default:
                 System.out.println("You didn`t pick the right number try again");
